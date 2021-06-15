@@ -26,9 +26,3 @@
 
 <?php include "footer.php"; ?>
 <script src="public/js/equipos.js"></script>
-<script>
-    $(document).ready(function(){
-        $('#tablaEquipoLoad').load('vistas/equipos/tablaEquipos.php');
-        $('#personasExistentes').load('vistas/equipos/listaPersonas.php');
-    });
-</script>
